@@ -1,0 +1,13 @@
+
+Numpy = uma biblioteca mae para analise de dados em python
+
+Numpy array = pode ser criado array com diversas dimenções
+
+-------------------------------------------------------//---------------------------
+Operacoes com numpy array
+
+para fazer as operacoes com o numpy array os dois arrays precisam ter a mesma quantidade de elementos
+
+------------------------------------------------//-------------------------------------
+
+BROADCASTING = Broadcasting( espalhando / transmitindo) = ele usa uma operacao com um numero escalar para todos os elementos 

@@ -1,0 +1,23 @@
+Tupla = imutavel enquanto ela está sendo executada. 
+Funcionalidade tupla = utilizamos ela quando nao queremos mexer nas nossas informações detro dela, como: arquivo de configuração. 
+
+SLICING Elemntos = fatiar os elementos do codigo. 
+
+print(tupla[1:3]) = o antes do : é a posição onde o programa vai comecar para puxar os dados, e o depois do : é até onde o programa é para puxar
+
+------------------------------------------------------//----------------------------------------------
+
+Listas = diferente das tuplas elas são totalmente mutaveis.
+
+--------------------------------------------------------------//-------------------------------------------------
+
+conjunto = nao guarda a ordem dos elementos
+
+o cojunto nao deixa ele repetir elementos repetidos.
+
+nao temos uma funcao para trocar um elemento para outro no conjunto, temos que excluir o elemento que deseja e add outro. 
+
+--------------------------------------------------------------------//---------------------------------------
+
+Dicionario = o dicionario funciona com chave:Valor, ela tambem é totalmente mutavel, e nao repete valor
+]
