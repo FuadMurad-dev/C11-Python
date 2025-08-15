@@ -15,7 +15,7 @@ print(np.concatenate([array1, array2])) # funcao para concatenar(juntar um array
 
 # Operacoes com matrizes
 
-matriz1 = np.array([50, 10, 100, 60 ,25, 100 ,80 ,100]).reshape(3,3)
+matriz1 = np.array([50, 10, 100, 60 ,25, 100 ,80, 75 ,100]).reshape(3,3)
 
 print(matriz1)
 
