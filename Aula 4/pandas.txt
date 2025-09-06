@@ -1,0 +1,4 @@
+
+Pandas Series = vetores do panda. A diferença é que nós temos que passar indices numericos e os valores. 
+
+dataframe pandas = ela segue a mesma funcionamento que uma planilha do excel; ele tambem é um aglomerado de series
