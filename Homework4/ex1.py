@@ -31,7 +31,7 @@ print(f"Missao mais cara: {missao_cara}")
 
 print("Nome das empresas e quantidade de missoes: \n") 
 
-for i, j in zip(empresas, quantidade):
+for i, j in zip(empresas, quantidade): 
     print(f"{i} : {j}")
 
 
