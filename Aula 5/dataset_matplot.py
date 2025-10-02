@@ -18,9 +18,9 @@ ds_maiores_paises = ds.nlargest(6, "Area (sq. mi.)")
 
 ds_Maiores_GDP = ds.nlargest(5, 'GDP ($ per capita)')
 
-#print(ds_Maiores_GDP["Country"])
+print(ds_Maiores_GDP["Country"])
 
-#plt.bar(ds_Maiores_GDP["Country"], ds_Maiores_GDP["GDP ($ per capita)"]) # grafico de barra
+plt.bar(ds_Maiores_GDP["Country"], ds_Maiores_GDP["GDP ($ per capita)"]) # grafico de barra
 
 #lt.show()
 
@@ -33,7 +33,7 @@ dsnocost = ds[ds["Coastline (coast/area ratio)"] == 0]
 quantidadenocost = len(dsnocost)
 quantidadecost = len(ds) - quantidadenocost
 
-plt.pie([quantidadenocost, quantidadecost], labels= ["Paises sem costa", "Paises com costa"], autopct= "%1.1f%%") #grafico pizza com porcentagem
+#plt.pie([quantidadenocost, quantidadecost], labels= ["Paises sem costa", "Paises com costa"], autopct= "%1.1f%%") #grafico pizza com porcentagem
 
 plt.show()
 
